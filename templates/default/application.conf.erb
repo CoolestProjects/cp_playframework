@@ -1,0 +1,6 @@
+#Application Configuration File
+include "<%=@defaultConf%>"
+
+<% node['play_app']['override_config'].each_pair do |name, value| %>
+<%= name %>="<%= value %>"
+<% end %>
