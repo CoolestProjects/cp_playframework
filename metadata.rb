@@ -6,7 +6,7 @@ description      'Deploys Play Application'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.0.1'
 
-depends 'cp_baseconfig'
+depends 'cp_baseconfiguration'
 depends 'cp_java'
 depends 'zip'
 depends 'simple_iptables'
