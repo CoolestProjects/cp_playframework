@@ -1,6 +1,7 @@
 .vagrant
 /cookbooks
 
+.DS_Store
 # Bundler
 bin/*
 .bundle/*
