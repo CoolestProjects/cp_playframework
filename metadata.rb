@@ -4,7 +4,7 @@ maintainer_email 'coolestprojects@coderdojo.com'
 license          'MIT'
 description      'Deploys Play Application'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
-version          '1.0.0'
+version          '0.0.1'
 
 depends 'cp_baseconfig'
 depends 'cp_java'
