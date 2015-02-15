@@ -2,7 +2,6 @@ default['play_app']['install_dir'] = "/opt/coolestprojects"
 default['play_app']['dist_url'] = ""
 default['play_app']['dist_local_file_path'] = ""
 default['play_app']['use_local_dist'] = "false"
-default['play_app']['application_name'] = ''
 default['play_app']['app_dir'] = ''
 default['play_app']['config_dir'] = 'config'
 default['play_app']['vm_options']='-J-Xms512M -J-Xmx1024M -J-Xss1M'

@@ -22,7 +22,7 @@ include_recipe 'cp_baseconfiguration'
 include_recipe "simple_iptables::redhat"
 
 play_installation_dir="#{node[:play_app][:install_dir]}"
-appName="#{node[:play_app][:application_name]}"
+appName="#{node[:play_app][:app_dir]}"
 dist_url="#{node[:play_app][:dist_url]}"
 app_version="#{node[:play_app][:app_version]}"
 play_app_dir="#{play_installation_dir}/#{node[:play_app][:app_dir]}-#{app_version}"
